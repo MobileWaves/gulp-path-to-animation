@@ -1,0 +1,14 @@
+@keyframes my-namespace-item1 {
+	0% { transform: translate(0%, 0%); }
+	100% { transform: translate(100.00%, 100.00%); }
+}
+.animated-my-namespace-item1 {
+	@include curved-animation(my-namespace-item1);
+}
+@keyframes my-namespace-kokomoko {
+	0% { transform: translate(0%, 0%); }
+	100% { transform: translate(100.00%, 150.00%); }
+}
+.animated-my-namespace-kokomoko {
+	@include curved-animation(my-namespace-kokomoko);
+}
