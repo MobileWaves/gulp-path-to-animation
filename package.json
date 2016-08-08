@@ -1,6 +1,6 @@
 {
   "name": "gulp-path-to-animation",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "Predefine CSS keyframe animations by interpolating array of points",
   "main": "index.js",
   "scripts": {
